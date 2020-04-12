@@ -12,6 +12,38 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	<style>
+		
+		.overlay {
+		  position: absolute;
+		  top: 0;
+		  bottom: 0;
+		  left: 0;
+		  right: 0;
+		  height: 100%;
+		  width: 100%;
+		  opacity: 0;
+		  transition: .5s ease;
+		  background-color: #008CBA;
+		}
+		
+		.image:hover .overlay {
+		  opacity: 0.7;
+		}
+		
+		.text {
+		  color: white;
+		  font-size: 20px;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  -webkit-transform: translate(-50%, -50%);
+		  -ms-transform: translate(-50%, -50%);
+		  transform: translate(-50%, -50%);
+		  text-align: center;
+		}
+		</style>
+		
 	<body class="is-preload">
 
 		<!-- Page Wrapper -->
@@ -27,10 +59,10 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="projects.html">Projects</a></li>
+											<li><a href="about.html">About me</a></li>
+											<li><a href="resume.html">my resume</a></li>
+											<li><a href="blogs.html">blogs</a></li>
 										</ul>
 									</div>
 								</li>
@@ -65,15 +97,15 @@
 					<div class="box alt">
 						<div class="row gtr-50 gtr-uniform">
 							<!-- <div class="col-12"><span class="image fit"><img src="images/banner.jpg" alt="" /></span></div> -->
-							<div class="col-6"><span class="image fit"><img src="images/projects/project-1.jpg" alt="" /></span></div>
-							<div class="col-6"><span class="image fit"><img src="images/projects/project-2.jpg" alt="" /></span></div>
-							<div class="col-6"><span class="image fit"><img src="images/projects/project-3.jpg" alt="" /></span></div>
-							<div class="col-6"><span class="image fit"><img src="images/projects/project-4.jpg" alt="" /></span></div>
-							<div class="col-6"><span class="image fit"><img src="images/projects/project-5.jpg" alt="" /></span></div>
-							<div class="col-6"><span class="image fit"><img src="images/projects/project-6.jpg" alt="" /></span></div>
-							<div class="col-6"><span class="image fit"><img src="images/projects/project-7.jpg" alt="" /></span></div>
-							<div class="col-6"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-							<div class="col-6"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+							<div class="col-6"><span class="image fit"><img src="images/projects/project-1.jpg" alt="" /><div class="overlay"><div class="text"><a href="projects/stride.html"><h2>Qudraped Robot, IIT BOMBAY</h2></a></div></div></span></div>
+							<div class="col-6"><span class="image fit"><img src="images/projects/project-2.jpg" alt="" /><div class="overlay"><div class="text"><a href="projects.html"><h2>QuadCopter</h2></a></div></div></span></div>
+							<div class="col-6"><span class="image fit"><img src="images/projects/project-3.jpg" alt="" /><div class="overlay"><div class="text"><a href="projects.html"><h2>Terrace farming bot</h2></a></div></div></span></div>
+							<div class="col-6"><span class="image fit"><img src="images/projects/project-4.jpg" alt="" /><div class="overlay"><div class="text"><a href="projects.html"><h2>Cozmo clench, techfest</h2></a></div></div></span></div>
+							<div class="col-6"><span class="image fit"><img src="images/projects/project-5.jpg" alt="" /><div class="overlay"><div class="text"><a href="projects.html"><h2>Smiley on led matrix</h2></a></div></div></span></div>
+							<div class="col-6"><span class="image fit"><img src="images/projects/project-6.jpg" alt="" /><div class="overlay"><div class="text"><a href="projects.html"><h2>thor (Electrical) hammer</h2></a></div></div></span></div>
+							<div class="col-6"><span class="image fit"><img src="images/projects/project-7.jpg" alt="" /><div class="overlay"><div class="text"><a href="projects.html"><h2>Smart AR glasses</h2></a></div></div></span></div>
+							<div class="col-6"><span class="image fit"><img src="images/projects/project-8.jpg" alt="" /><div class="overlay"><div class="text"><a href="projects.html"><h2>Inside the old set top box</h2></a></div></div></span></div>
+							<!-- <div class="col-6"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div> -->
 						</div>
 					</div>
 
